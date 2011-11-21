@@ -1,0 +1,24 @@
+NAME
+    ValueObject - Half-Baked Value Objects
+
+VERSION
+    Version 0.001
+
+SYNOPSIS
+      use ValueObject Money => qw(currency amount);
+      my $balance = Money('$', 100);
+      printf "Balance is %s %d\n", $p->currency, $p->amount;
+
+ACKNOWLEDGEMENTS
+    <http://c2.com/cgi/wiki?ValueObject>, Class::Value,
+    <http://leonerds-code.blogspot.com/2011/11/perl-tiny-lightweight-structures-module.html>
+
+LICENSE AND COPYRIGHT
+    Copyright 2011 Bernhard Graf.
+
+    This program is free software; you can redistribute it and/or modify it
+    under the terms of either: the GNU General Public License as published
+    by the Free Software Foundation; or the Artistic License.
+
+    See http://dev.perl.org/licenses/ for more information.
+
